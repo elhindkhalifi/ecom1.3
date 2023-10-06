@@ -6,9 +6,11 @@
     <title>Document</title>
 </head>
 <body>
-    <form>
+    <form method="post" action="result.php">
     <label for="firstName">Entrez le prénom :</label>
           <input type="text" name="firstName" id="firstName" />
+          <input type="submit" id="envoie" />
+<!-- 'GET' N EST PAS SECURISEE ON LUTILISE PAS POUR UN MDP -->
     </form>
 </body>
 </html>
